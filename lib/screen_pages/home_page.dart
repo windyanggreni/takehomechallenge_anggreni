@@ -11,7 +11,8 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'Rick and Morty Characters',
-          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),
+          style: TextStyle(
+              fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),
         ),
         elevation: 0,
         centerTitle: true,
