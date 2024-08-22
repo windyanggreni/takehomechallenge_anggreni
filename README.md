@@ -31,5 +31,5 @@ This app is a Flutter project that features a list of characters from the Rick a
   - `main.dart` The entry point of the application where the app is initialized.
 
 ## APK Link:
-[https://drive.google.com/file/d/1ylBU6H9PHFdbXMpBZwuRiNSkAwa-q8v5/view?usp=drive_link]
+[https://drive.google.com/file/d/1FeWWvKrcyd-e7QO3zwrlrZ9X6uPPbjzo/view?usp=sharing]
 
