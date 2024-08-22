@@ -4,9 +4,9 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:label="takehomechallenge_anggreni"
+        android:label="Rick and Morty"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_rickmorty">
         <activity
             android:name=".MainActivity"
             android:exported="true"

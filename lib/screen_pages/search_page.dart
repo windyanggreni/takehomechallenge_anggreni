@@ -114,8 +114,10 @@ class _SearchPageState extends State<SearchPage> {
                 ? Center(child: CircularProgressIndicator())
                 : _isError
                     ? Center(
-                        child: Text('An error occurred. Please try again.',
-                            style: TextStyle(color: Colors.red)))
+                        child: Text('No characters found.',
+                            style: TextStyle(fontSize: 18,
+                                fontStyle: FontStyle.italic,
+                                color: Colors.grey)))
                     : _searchResults == null || _searchResults!.isEmpty
                         ? Center(
                             child: Text(
@@ -174,7 +176,7 @@ class _SearchPageState extends State<SearchPage> {
                                         borderRadius: BorderRadius.circular(20),
                                         child: Image.network(
                                           character.image,
-                                          height: 200,
+                                          height: 120,
                                           fit: BoxFit.cover,
                                         ),
                                       ),
